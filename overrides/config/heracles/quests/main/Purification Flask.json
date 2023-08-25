@@ -1,0 +1,35 @@
+{
+  "dependencies": [
+    "Obtain Essence of Purity"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          64,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": "sculkhorde:purification_flask_item",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Purification Flask"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

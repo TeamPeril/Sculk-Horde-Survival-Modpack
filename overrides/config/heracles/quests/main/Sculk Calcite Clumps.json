@@ -1,0 +1,43 @@
+{
+  "dependencies": [
+    "Visit the Sculk Tomb"
+  ],
+  "tasks": {
+    "cal": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "sculkhorde:calcite_clump"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Get Calcite Clumps from Calcite Ore"
+    },
+    "description": [
+      "/e/**Overview**/e/",
+      "Get Calcite Clumps from Calcite Ore. It can be found in the Sculk Tomb or from when a Sculk Node spawns in your world. The Sculk Node will spawn Living Rock Structures that generate this ore."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -32,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": "sculkhorde:calcite_ore",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sculk Calcite Clumps"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

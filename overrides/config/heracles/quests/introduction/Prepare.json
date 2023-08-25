@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "Welcome!"
+  ],
+  "tasks": {
+    "sdaas": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "coal": {
+      "item": {
+        "id": "minecraft:coal_ore",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "iron": {
+      "item": {
+        "id": "minecraft:iron_ore",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Make Preperations to Survive"
+    },
+    "description": [
+      "**/2/Prepare/2/**",
+      "/2/Available to you are a few different mods to help you prepare for the Sculk Horde./2/",
+      " ",
+      "**/e/Create/e/**",
+      "Use create to automate resources and build contraptions. You're going to need them to survive.",
+      " ",
+      "**/e/Create: New Age/e/**",
+      "Use this mod to electricfy your experience. Discover electricity and use it to better your infrastructure.",
+      " ",
+      "**/e/Modular Golems/e/**",
+      " ",
+      "Need to protect yourself? Build your own army with this mod."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          -64,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": "create:cogwheel",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Prepare"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "dependencies": [
+    "Activate The Horde"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "How do you defeat it?"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          0,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": "sculkhorde:essence_of_purity",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Defeat the Horde"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

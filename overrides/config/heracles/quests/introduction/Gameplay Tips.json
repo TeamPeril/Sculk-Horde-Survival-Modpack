@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Welcome!"
+  ],
+  "tasks": {
+    "check": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "gol": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Tips to make your survival easier."
+    },
+    "description": [
+      "**/e/Gameplay Tips/e**/",
+      " ",
+      "Protect yourself with Modular Golems.",
+      " ",
+      "Claim land with [/e/M/e/].",
+      " ",
+      "Work Together, fighting alone will lead to failure.",
+      " ",
+      "Press [/e/U/e/] to open the quest menu.",
+      " ",
+      " ",
+      " ",
+      "**/e/Visit the Sculk Horde Wiki for more Information/e/**",
+      " ",
+      "https://github.com/TeamPeril/Sculk-Horde/wiki"
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          64,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:diamond_sword",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gameplay Tips"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

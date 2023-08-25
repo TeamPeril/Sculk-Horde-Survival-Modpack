@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "Obtain Essence of Purity"
+  ],
+  "tasks": {
+    "ward": {
+      "type": "heracles:item",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "item": "sculkhorde:infestation_ward_block"
+    }
+  },
+  "rewards": {
+    "asdasd": {
+      "xptype": "LEVEL",
+      "amount": 2,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "**/e/Overview/e/**",
+      "The Infestation Ward blocks stops infestation from crossing it. This does not include mobs."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          32,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": "sculkhorde:infestation_ward_block",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ward"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

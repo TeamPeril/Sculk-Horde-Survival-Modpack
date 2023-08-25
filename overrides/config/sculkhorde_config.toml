@@ -1,0 +1,39 @@
+
+["Gravemind Variables"]
+	#How much mass is needed for the Gravemind to enter the mature stage? (Default 20000)
+	#Range: > 0
+	gravemind_mass_goal_for_mature_stage = 20000
+	#How much mass is needed for the Gravemind to enter the immature stage? (Default 5000)
+	#Range: > 0
+	gravemind_mass_goal_for_immature_stage = 5000
+
+["Sculk Mite Variables"]
+	#Should sculk mites spawn in deep dark? (Default false)
+	should_sculk_mites_spawn_in_deep_dark = false
+
+["Mod Compatability"]
+	#Should the Sculk Horde attack mobs from the mod 'Fungal Infection:Spore'? (Default false)
+	target_spore_entities = false
+	#Should the Sculk Horde attack mobs from the mod 'From Another World'? (Default false)
+	target_faw_entities = false
+
+["Sculk Node Variables"]
+	#How many chunks should be loaded around a sculk node? (Default 15)
+	#Range: 0 ~ 15
+	sculk_node_chunkload_radius = 15
+
+["Experimental Features"]
+	#Should experimental features be enabled? (Default false)
+	experimental_features_enabled = false
+
+["Sculk Raid Variables (Experimental Feature)"]
+	#How long should the Sculk Enderman scout for? (Default 8)
+	#Range: > 0
+	sculk_raid_enderman_scouting_duration_minutes = 8
+	#How long should the global cooldown between raids be in minutes? (Default 300)
+	#Range: > 0
+	sculk_raid_global_cooldown_between_raids_minutes = 300
+	#How long should the no raid zone last at a location in minutes? This occurs when a raid succeeds or fails so that the same location is not raided for a while. (Default 480)
+	#Range: > 0
+	sculk_raid_no_raid_zone_duration_minutes = 480
+

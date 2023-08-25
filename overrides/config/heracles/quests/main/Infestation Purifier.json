@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "Sculk Calcite Clumps",
+    "Resin",
+    "Obtain Essence of Purity"
+  ],
+  "tasks": {
+    "asdasd": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "sculkhorde:infestation_purifier"
+    }
+  },
+  "rewards": {
+    "sda": {
+      "item": {
+        "id": "minecraft:iron_ore",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "asdasd": {
+      "item": {
+        "id": "minecraft:diamond_ore",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "**/e/Overview/e/**",
+      "The Infestation Purifier is an Item that the player can craft to completely reverse infestation of blocks."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          0,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": "sculkhorde:infestation_purifier",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Infestation Purifier"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

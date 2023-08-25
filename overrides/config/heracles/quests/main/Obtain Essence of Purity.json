@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "Visit the Sculk Tomb"
+  ],
+  "tasks": {
+    "pure": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "sculkhorde:essence_of_purity"
+    }
+  },
+  "rewards": {
+    "asdasd": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "**/e/Overview/e/**",
+      "",
+      "Get Essence of Purity. It is an essential crafting component."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          32,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": "sculkhorde:essence_of_purity",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Obtain Essence of Purity"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "Welcome!"
+  ],
+  "tasks": {
+    "check": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "steak": {
+      "item": {
+        "id": "minecraft:cooked_beef",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Unleash the Horde upon your world."
+    },
+    "description": [
+      "To activate the Sculk Horde, you must travel to the center of your minecraft world at /4/0,0/4/.",
+      " ",
+      "Under this location, you will find the /4/Sculk Tomb/4/. ",
+      " ",
+      "/4/Enter the tomb/4/ and /4/activate the Ancient Sculk Node/4/ with a Sculk Sensor.",
+      " ",
+      "After this, /4/run for your life/4/."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          0,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": "sculkhorde:sculk_ancient_node",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Activate The Horde"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

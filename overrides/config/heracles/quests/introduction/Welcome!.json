@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "Activiating the Horde"
+  ],
+  "tasks": {
+    "check": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "pot": {
+      "item": {
+        "id": "minecraft:flower_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "flower": {
+      "item": {
+        "id": "minecraft:rose_bush",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Welcome to Sculk Horde Survival!"
+    },
+    "description": [
+      "**/2/Welcome to Sculk Horde Survival!/2/**",
+      "",
+      "In this modpack, you will prepare, then fight off the Sculk Horde to save the Overworld from consumtion and assimilation.",
+      "The Sculk Horde is a persistent and worthy foe. If you are not prepared, you will be overwhelmed."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:map",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Welcome!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

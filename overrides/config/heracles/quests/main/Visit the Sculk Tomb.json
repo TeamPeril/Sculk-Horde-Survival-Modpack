@@ -1,0 +1,51 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "visittomb": {
+      "structures": "sculkhorde:sculk_tomb_main",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {
+    "golden": {
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "sdasd": {
+      "xptype": "LEVEL",
+      "amount": 2,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Visit the Tomb at 0,0."
+    },
+    "description": [
+      "Visit the Sculk Tomb underground at 0,0."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "sculkhorde:sculk_ancient_node",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Visit the Sculk Tomb"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "Visit the Sculk Tomb"
+  ],
+  "tasks": {
+    "asdas": {
+      "type": "heracles:item",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "item": "sculkhorde:sculk_resin"
+    }
+  },
+  "rewards": {
+    "as": {
+      "xptype": "LEVEL",
+      "amount": 2,
+      "type": "heracles:xp"
+    },
+    "sdas": {
+      "item": {
+        "id": "minecraft:coal_ore",
+        "count": 32
+      },
+      "type": "heracles:item"
+    },
+    "sdaasd": {
+      "item": {
+        "id": "minecraft:iron_ore",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Get Resin From A Bee Nest"
+    },
+    "description": [
+      "**/e/Overview/e/**",
+      "Sculk Resin is obtained from shearing the cells under a Sculk Bee Hive Structure."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          0,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": "sculkhorde:sculk_bee_nest",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Resin"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false
+  }
+}
