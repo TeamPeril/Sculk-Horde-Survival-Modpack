@@ -214,7 +214,7 @@ key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.diet.open.desc:key.keyboard.unknown
 soundCategory_master:0.43956953642384106
-soundCategory_music:0.0035211267605633804
+soundCategory_music:0.5
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
