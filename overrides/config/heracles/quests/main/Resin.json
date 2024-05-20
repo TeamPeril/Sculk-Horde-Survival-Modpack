@@ -5,15 +5,15 @@
   "tasks": {
     "asdas": {
       "type": "heracles:item",
+      "item": "sculkhorde:sculk_resin",
       "amount": 4,
-      "collection": "AUTOMATIC",
-      "item": "sculkhorde:sculk_resin"
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "as": {
-      "xptype": "LEVEL",
-      "amount": 2,
+      "xptype": "POINTS",
+      "amount": 100,
       "type": "heracles:xp"
     },
     "sdas": {
@@ -43,12 +43,15 @@
       "Main": {
         "position": [
           0,
-          64
+          60
         ]
       }
     },
     "icon": {
-      "item": "sculkhorde:sculk_bee_nest",
+      "item": {
+        "id": "sculkhorde:sculk_bee_nest",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -57,7 +60,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false
+    "hidden": "LOCKED"
   }
 }

@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "Get Chunk O' Brain",
+    "A Tortured Soul"
+  ],
+  "tasks": {
+    "0": {
+      "type": "heracles:item",
+      "item": "sculkhorde:dormant_heart_of_the_horde",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "1": {
+      "item": {
+        "id": "sculkhorde:purification_flask",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Craft a Dormant Heart of the Horde"
+    },
+    "description": [
+      "**/e/The Dormant Heart of the Horde/e/**",
+      "Use your Chunks O' Brain to craft an object of pure sin, the Dormant Heart of the Horde. Use a /b/Soul Harvester/b/ to enrich it with souls."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          45,
+          180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sculkhorde:dormant_heart_of_the_horde",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Heart of Sin"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

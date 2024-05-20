@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "Obtain Essence of Purity"
+  ],
+  "tasks": {
+    "0": {
+      "type": "heracles:item",
+      "item": "sculkhorde:eye_of_purity",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "1": {
+      "item": {
+        "id": "sculkhorde:eye_of_purity",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Craft an Eye of Purity."
+    },
+    "description": [
+      "**/e/The Eye of Purity/e/**",
+      "This item is used to locate nodes in the dimension you are currently in. If the node is not in your dimension, or none exists, then the item will not work."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          90,
+          120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sculkhorde:eye_of_purity",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Locating Nodes"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "A Tortured Soul"
+  ],
+  "tasks": {
+    "0": {
+      "type": "heracles:item",
+      "item": "sculkhorde:pure_souls",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "1": {
+      "item": {
+        "id": "sculkhorde:pure_souls",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Craft a Pure Soul from a crying soul."
+    },
+    "description": [
+      "**/e/Pure Souls/e/**",
+      "Take a crying soul and purify it. Pure souls are a very valuable ingredient."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          0,
+          180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sculkhorde:pure_souls",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Free the Souls of the Dammed"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

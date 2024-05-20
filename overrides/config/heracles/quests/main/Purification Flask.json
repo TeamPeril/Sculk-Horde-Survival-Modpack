@@ -2,34 +2,63 @@
   "dependencies": [
     "Obtain Essence of Purity"
   ],
-  "tasks": {},
-  "rewards": {},
+  "tasks": {
+    "0": {
+      "type": "heracles:item",
+      "item": "sculkhorde:purification_flask",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "1": {
+      "item": {
+        "id": "minecraft:gold_ore",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "Craft a purification flask."
     },
     "description": [
-      ""
+      "/e/**Keep Yourself Clean**/e/",
+      "The purification flask is a good way to keep yourself clean from infection and other bad",
+      "sculk releated side effects.",
+      "It can also be used to de-infest blocks if thrown at blocks."
     ],
     "groups": {
       "Main": {
         "position": [
-          64,
-          128
+          60,
+          120
         ]
       }
     },
     "icon": {
-      "item": "sculkhorde:purification_flask_item",
+      "item": {
+        "id": "sculkhorde:purification_flask",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Purification Flask"
+      "translate": "Stay Clean"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false
+    "hidden": "LOCKED"
   }
 }

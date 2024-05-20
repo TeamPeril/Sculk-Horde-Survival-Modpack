@@ -5,12 +5,35 @@
   "tasks": {
     "cal": {
       "type": "heracles:item",
+      "item": "sculkhorde:calcite_clump",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "item": "sculkhorde:calcite_clump"
+      "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "0": {
+      "item": {
+        "id": "minecraft:iron_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "100": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "1": {
+      "item": {
+        "id": "minecraft:cooked_beef",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "translate": "Get Calcite Clumps from Calcite Ore"
@@ -22,13 +45,16 @@
     "groups": {
       "Main": {
         "position": [
-          -32,
-          64
+          -30,
+          60
         ]
       }
     },
     "icon": {
-      "item": "sculkhorde:calcite_ore",
+      "item": {
+        "id": "sculkhorde:calcite_ore",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -37,7 +63,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false
+    "hidden": "LOCKED"
   }
 }

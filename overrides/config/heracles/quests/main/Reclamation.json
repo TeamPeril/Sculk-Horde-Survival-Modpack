@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "A Sacrafice for the Greater Good"
+  ],
+  "tasks": {
+    "0": {
+      "type": "heracles:item",
+      "item": "sculkhorde:heart_of_purity",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0": {
+      "xptype": "POINTS",
+      "amount": 300,
+      "type": "heracles:xp"
+    },
+    "1": {
+      "item": {
+        "id": "sculkhorde:purification_flask",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "2": {
+      "item": {
+        "id": "sculkhorde:infestation_purifier",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Craft a Heart of Purity to end the Sculk Horde."
+    },
+    "description": [
+      "**/e/The Heart of Purity/e/**",
+      "You did it! You now have the means to permanently defeat the Horde. go back to where it all began: The Tomb at 0,0,0 and use the Heart of Purity on the Ancient Node."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          45,
+          280
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sculkhorde:heart_of_purity",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Means of Defeat"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

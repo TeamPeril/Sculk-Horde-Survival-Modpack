@@ -1,0 +1,117 @@
+{
+  "dependencies": [
+    "Blood for the Blood God",
+    "The Heart of Sin"
+  ],
+  "tasks": {
+    "0": {
+      "type": "heracles:item",
+      "item": "sculkhorde:heart_of_the_horde",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "0": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 300,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "sculkhorde:purification_flask",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond_ore",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "farmersdelight:steak_and_potatoes",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Sarfice souls to the Soul Harvester and input a Dormant Heart of the Horde to create a Heart of the Horde."
+    },
+    "description": [
+      "**/e/The Heart of the Horde/e/**",
+      "The end is near, you are inches away from uncovering the cure to defeat the horde. Your hands hold the weight of the sins you commited, but it will all be worth it in the end. Next, craft a /b/Heart of Purity/b/."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          45,
+          230
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sculkhorde:heart_of_the_horde",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Sacrifice for the Greater Good"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -5,9 +5,9 @@
   "tasks": {
     "pure": {
       "type": "heracles:item",
+      "item": "sculkhorde:essence_of_purity",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "item": "sculkhorde:essence_of_purity"
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
@@ -17,11 +17,16 @@
         "count": 8
       },
       "type": "heracles:item"
+    },
+    "100": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "Craft an essence of purity."
     },
     "description": [
       "**/e/Overview/e/**",
@@ -31,22 +36,28 @@
     "groups": {
       "Main": {
         "position": [
-          32,
-          64
+          60,
+          60
         ]
       }
     },
     "icon": {
-      "item": "sculkhorde:essence_of_purity",
+      "item": {
+        "id": "sculkhorde:essence_of_purity",
+        "count": 1
+      },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
-      "translate": "Obtain Essence of Purity"
+      "translate": "Curating a Cure"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false
+    "hidden": "LOCKED"
   }
 }

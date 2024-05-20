@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "Sculk Calcite Clumps",
+    "Resin"
+  ],
+  "tasks": {
+    "0": {
+      "type": "heracles:item",
+      "item": "sculkhorde:crying_souls",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "1": {
+      "item": {
+        "id": "minecraft:crying_obsidian",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Obtain a Crying Soul"
+    },
+    "description": [
+      "**/e/Crying Souls/e/**",
+      "Collect crying souls from Infested Crying Obsidian. The best method to do this is to collect crying obsidian, place it near an infection zone. Wait for it to be infected, then come back and collect it."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          0,
+          119
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sculkhorde:crying_souls",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tortured Souls"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

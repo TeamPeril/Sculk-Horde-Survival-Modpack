@@ -5,21 +5,28 @@
   "tasks": {
     "ward": {
       "type": "heracles:item",
+      "item": "sculkhorde:infestation_ward_block",
       "amount": 8,
-      "collection": "AUTOMATIC",
-      "item": "sculkhorde:infestation_ward_block"
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
+    "0": {
+      "item": {
+        "id": "minecraft:cooked_beef",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
     "asdasd": {
-      "xptype": "LEVEL",
-      "amount": 2,
+      "xptype": "POINTS",
+      "amount": 100,
       "type": "heracles:xp"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "Craft infestation ward to stop block infestation from crossing it."
     },
     "description": [
       "**/e/Overview/e/**",
@@ -28,22 +35,28 @@
     "groups": {
       "Main": {
         "position": [
-          32,
-          128
+          30,
+          120
         ]
       }
     },
     "icon": {
-      "item": "sculkhorde:infestation_ward_block",
+      "item": {
+        "id": "sculkhorde:infestation_ward_block",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Ward"
+      "translate": "Stopping Block Infestation"
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false
+    "hidden": "LOCKED"
   }
 }

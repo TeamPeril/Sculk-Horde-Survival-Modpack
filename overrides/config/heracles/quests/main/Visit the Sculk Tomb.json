@@ -2,12 +2,28 @@
   "dependencies": [],
   "tasks": {
     "visittomb": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "structures": "sculkhorde:sculk_tomb_main",
       "type": "heracles:structure"
     }
   },
   "rewards": {
     "golden": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "item": {
         "id": "minecraft:golden_apple",
         "count": 1
@@ -15,8 +31,16 @@
       "type": "heracles:item"
     },
     "sdasd": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
       "xptype": "LEVEL",
       "amount": 2,
+      "title": "",
       "type": "heracles:xp"
     }
   },
@@ -36,7 +60,10 @@
       }
     },
     "icon": {
-      "item": "sculkhorde:sculk_ancient_node",
+      "item": {
+        "id": "sculkhorde:sculk_ancient_node",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
@@ -45,7 +72,10 @@
     }
   },
   "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
     "individual_progress": false,
-    "hidden": false
+    "hidden": "LOCKED"
   }
 }

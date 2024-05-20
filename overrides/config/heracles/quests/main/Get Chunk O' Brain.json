@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Craft an Eye Of Purity"
+  ],
+  "tasks": {
+    "0": {
+      "type": "heracles:item",
+      "item": "sculkhorde:chunk_o_brain",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0": {
+      "item": {
+        "id": "minecraft:cooked_beef",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "100": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "1": {
+      "item": {
+        "id": "sculkhorde:purification_flask",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Destroy 8 nodes and get 8 Chunk O' Brain."
+    },
+    "description": [
+      "**/e/Obtain 8 Chunk O' Brain/e/**",
+      "Destroy 8 nodes to obtain 8 Chunks O' Brain.",
+      "Use the /b/Eye of Purity/b/ item to locate nodes."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          90,
+          180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sculkhorde:chunk_o_brain",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Brains of the Operation"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
